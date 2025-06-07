@@ -9,7 +9,14 @@ $tools = @(
     @{ Name = "Everything";        ID = "voidtools.Everything" },
     @{ Name = "PowerToys";         ID = "Microsoft.PowerToys" },
     @{ Name = "Git";               ID = "Git.Git" },
-    @{ Name = "VLC Media Player";  ID = "VideoLAN.VLC" }
+    @{ Name = "VLC Media Player";  ID = "VideoLAN.VLC" },
+    @{ Name = "Steam";             ID = "Valve.Steam" },
+    @{ Name = "Discord";           ID = "Discord.Discord" },
+    @{ Name = "Visual Studio Code"; ID = "Microsoft.VisualStudioCode" },
+    @{ Name = "Firefox";           ID = "Mozilla.Firefox" },
+    @{ Name = "KeePassXC";         ID = "KeePassXCTeam.KeePassXC" },
+    @{ Name = "Google Drive";      ID = "Google.Drive" },
+    @{ Name = "Spotify";           ID = "Spotify.Spotify" }
 )
 
 foreach ($tool in $tools) {
