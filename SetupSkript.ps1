@@ -110,8 +110,6 @@ Set-Service -Name wuauserv -StartupType Automatic
 # Zurücksetzen auf Standardverhalten (automatische Updates):
 # Remove-Item -Path "HKLM:\Software\Policies\Microsoft\Windows\WindowsUpdate" -Recurse -Force
 
-
-
 Write-Output "✅ Windows wurde erfolgreich optimiert und bereinigt. Neustart empfohlen."
 
 # --------------------
